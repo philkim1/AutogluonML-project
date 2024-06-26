@@ -27,7 +27,7 @@ try tuning the top ranked models to get better performance.
 |--|--|--|--|--|--|
 |initial|N/A|rmse|600|best_quality|1.84007|
 |add_features|N/A|rmse|600|best_quality|0.6538|
-|hpo4|10|rmse|1200|none|-|
+|hpo4|10|rmse|1200|none|0.5520|
 |hpo3|5|rmse|1200|none|0.5502|
 |hpo2|5|rmse|600|none|1.8364|
 |hpo1|5|rmse|600|best_quality|0.6538|
