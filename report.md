@@ -3,7 +3,7 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-That the number of data points the competition was expecting was 6493 and that all values were to be zero or greater.
+That the number of rows the competition was expecting was 6493 and that all values were to be zero or greater.
 
 ### What was the top ranked model that performed?
 The weightedensemble_L3 was the top ranked model for the initial dataset and the new features dataset
