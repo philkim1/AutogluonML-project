@@ -23,13 +23,14 @@ While tuning the hyperparameters for the hpo dataset, I found that the top ranki
 try tuning the top ranked models to get better performance.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|eval_metric|time_limit|presets|score|
-|--|--|--|--|--|
-|initial|rmse|600|best_quality|1.84007|
-|add_features|rmse|600|best_quality|0.6538|
-|hpo3|rmse|1200|none|0.5502|
-|hpo2|rmse|600|none|1.8364|
-|hpo1|rmse|600|best_quality|0.6538|
+|model|Trials|eval_metric|time_limit|presets|score|
+|--|--|--|--|--|--|
+|initial|N/A|rmse|600|best_quality|1.84007|
+|add_features|N/A|rmse|600|best_quality|0.6538|
+|hpo4|10|rmse|1200|none|-|
+|hpo3|5|rmse|1200|none|0.5502|
+|hpo2|5|rmse|600|none|1.8364|
+|hpo1|5|rmse|600|best_quality|0.6538|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
