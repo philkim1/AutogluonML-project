@@ -20,7 +20,7 @@ The top ranking model did perform better than the initial dataset from -52.730 t
 While tuning the hyperparameters for the hpo dataset, I found that the top ranking model had changed from KNeighborsDist to weightedensemble_L2 as well as the score for the top ranking model when the time_limit increased from 600 to 1200. However, while the score of the top ranking model had improved from -94.488 to -34.183 the kaggle score actually got worse.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-try tuning the top ranked models to get better performance.
+I would try individually tuning the top ranked models to get better performance.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|Trials|eval_metric|time_limit|presets|score|
